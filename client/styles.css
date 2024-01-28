@@ -1,0 +1,15 @@
+.dropdown {
+    position: relative; 
+    display: inline-block;
+}
+
+.dropdown-menu {
+    position: absolute; 
+    top: 100%;
+    left: 0;
+    padding: 0; 
+    margin: 0; 
+    background-color: rgb(204, 79, 150) ;
+    border: 2px; 
+    border-color: black
+}

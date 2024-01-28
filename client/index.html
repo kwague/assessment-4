@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Back End Assessment</title>
+  </head>
+  <body class="container">
+    <button id="complimentButton">Get a compliment</button>
+
+    <!-- button for random fortune-->
+    <button id="fortuneButton">Get Fortune</button>
+
+    <!--button to suggest a new look-->
+    <button id="newLookButton">Get a new look</button>
+
+    <!--button to suggest next vacation-->
+    <button id="travelButton">Travel Idea</button>
+
+    <!--Email submission-->
+    <form method="post" action="/submit-email">
+      <label for="email">Type in your email address:</label>
+      <input type="email" id="email" name="email">
+      <button type="submit">Submit</button>
+    </form>
+
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+    
+  </body>
+</html>
